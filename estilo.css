@@ -1,0 +1,134 @@
+
+body {
+    background-color: black;
+    
+}
+section {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #009946;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    z-index: 999;
+}
+
+nav p {
+    margin-left: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 100px;
+}
+
+a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.port {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.capa {
+    width: 70%; 
+}
+
+.capa img {
+    width: 100%;
+    height: auto;
+}
+
+.texto-contenedor {
+    width: 30%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-contenedor h1 {
+    margin: 0;
+    font-size: 3em;
+    line-height: 1.2; 
+}
+
+main  {
+    background-image: url("galeria/istockphoto-501655522-170667a.jpg");
+}
+
+section {
+    padding-top: 30px;
+}
+h1 {
+    color: white;
+}
+h2 {
+    color: #6A2A3C;
+}
+section p {
+    color: white;
+}
+#galeria {
+    padding: 16px;
+}
+#galeria h3 {
+    text-align: center;
+}
+.galeria {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+.galeria img {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+.galeria a {
+    transition: opacity 0.2s ease;
+}
+
+
+footer {
+    display: flex;
+    padding: 10px;
+    background-color: black;
+    justify-content: space-between;
+}
+footer div{
+    text-align: left;
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+.copyright {
+    background-color: black;
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-family: "Times New Roman";
+    padding: 30px;
+}
